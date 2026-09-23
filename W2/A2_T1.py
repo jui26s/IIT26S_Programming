@@ -1,3 +1,10 @@
-contant="Hello,this is a string.Let's manipulate it"
-split_contant = contant.split(" ")
-print(split_contant)
+print("program staring.")
+Name=input("what is your name:")
+Number1=input("enter a floating point number:")
+print(float(Number1))
+Number2=input("enter secound floating point number:")
+print(float(Number2))
+print(f"{Name} you gave numbers {Number1} and {Number2}.")
+Final =(round(float(Number1)* float(Number2), 2))
+print(f" Multiplying first and secound number will result in product {Final}")
+print("program ending.")
